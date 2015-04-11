@@ -1,0 +1,3 @@
+https://github.com/CipherScruples/GoogleDorks.git
+
+inurl:https://acpol2.army.mil/fasclass/search_fs/ intext:cyber
