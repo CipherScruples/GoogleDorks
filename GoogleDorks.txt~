@@ -1,0 +1,26 @@
+https://github.com/CipherScruples/GoogleDorks.git
+
+&tbs=rltm:1 [real time results]
+&tbs=qdr:s [past second]
+&tbs=qdr:n [past minute]
+&tbs=qdr:h [past hour]
+&tbs=qdr:d [past 24 hours (day)]
+&tbs=qdr:w [past week]
+&tbs=qdr:m [past month]
+&tbs=qdr:y [past year]
+
+http://www.google.com/search?q=INSERT_YOUR_QUERY_STRING_HERE&tbs=qdr:d
+
+[(site:"*.gov" | site:"*.mil" | site:"*.us" | site:"*.int") AND (filetype:pdf | filetype:odf | filetype:odp | filetype:ods | filetype:txt | filetype:doc | filetype:docx | filetype:ppt | filetype:pptx | filetype:rtf | filetype:xls | filetype:xlsx | filetype:zip) AND ((cyber "national guard") | (cyber forensics))]
+
+https://www.google.com/search?q=%5B(site:%22*.gov%22+%7C+site:%22*.mil%22+%7C+site:%22*.us%22+%7C+site:%22*.int%22)+AND+(filetype:pdf+%7C+filetype:odf+%7C+filetype:odp+%7C+filetype:ods+%7C+filetype:txt+%7C+filetype:doc+%7C+filetype:docx+%7C+filetype:ppt+%7C+filetype:pptx+%7C+filetype:rtf+%7C+filetype:xls+%7C+filetype:xlsx+%7C+filetype:zip)+AND+((cyber+%22national+guard%22)+%7C+(cyber+forensics))%5D&tbs=qdr:d
+
+https://www.google.com/search?q=%5b(site%3a%22cn%22%20%7c%20site%3a%22hk%22%20%7c%20site%3a%22kp%22%20%7c%20site%3a%22sy%22%20%7c%20site%3a%22ru%22%20%7c%20site%3a%22su%22%20%7c%20site%3a%22ir%22)%20and%20(filetype%3asql%20%7c%20filetype%3amdb%20%7c%20filetype%3adbf%20%7c%20filetype%3arar)%5d
+
+inurl:https://acpol2.army.mil/fasclass/search_fs/ intext:cyber
+
+[(site:"*.gov" | site:"*.mil" | site:"*.us" | site:"*.int") AND (filetype:pdf | filetype:odf | filetype:odp | filetype:ods | filetype:txt | filetype:doc | filetype:docx | filetype:ppt | filetype:pptx | filetype:rtf | filetype:xls | filetype:xlsx | filetype:zip) AND (cyber "national guard")]
+
+https://www.google.com/search?q=%5B(site:%22*.gov%22+%7C+site:%22*.mil%22+%7C+site:%22*.us%22+%7C+site:%22*.int%22)+AND+(filetype:pdf+%7C+filetype:odf+%7C+filetype:odp+%7C+filetype:ods+%7C+filetype:txt+%7C+filetype:doc+%7C+filetype:docx+%7C+filetype:ppt+%7C+filetype:pptx+%7C+filetype:rtf+%7C+filetype:xls+%7C+filetype:xlsx+%7C+filetype:zip)+AND+((cyber+%22national+guard%22)+%7C+(cyber+forensics))%5D&tbs=qdr:m
+
+http://bit.ly/pwned-routers
